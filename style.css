@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  text-align: center;
+  background-image: url(/24528.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Cute Font', cursive;
+  font-size: 3em;
+
+}
+
+#go {
+  background-color: rgb(45, 243, 45);
+  padding: 1em;
+  border: 3px solid green;
+  border-radius: 4px;
+}
+
+#output {
+  color: rgb(3, 3, 3);
+  font-size: 1.5em;
+  text-shadow: plum;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 600px) {
+  #container {
+    width: 50vw;
+    
+  }
+}
